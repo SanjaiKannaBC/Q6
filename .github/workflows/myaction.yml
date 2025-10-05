@@ -1,0 +1,15 @@
+name: Example GitHub Action
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Runs on an Ubuntu machine
+    
+    steps:
+      - name: 24f2006569@ds.study.iitm.ac.in  # Your email in the step name
+        run: echo "Hello, world!"  # The action's command to run
